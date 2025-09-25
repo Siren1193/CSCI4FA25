@@ -1,4 +1,4 @@
-#python code
+#function notation in python
 
 # f : Num -> Num
 def f(x): # define the function using "def" <name>(<input list>)
