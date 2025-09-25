@@ -1,0 +1,7 @@
+what does the colon on the f(x): mean?
+    it means the end of the function
+
+return defines the output equivilant to =
+
+what we call f(x)
+    equals x + 1

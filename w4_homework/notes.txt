@@ -1,0 +1,29 @@
+arrays are like what python calls a list, but they all have to be the same type (homogeneous) including collections
+    array forces you to state the type
+
+a list is like an array with some different extra functions 
+    I wonder how python sorts a list of numbers and characters
+
+array doesn't interact with print, so print is telling me the thing it can't print.
+    How would I print the data out of an array?
+
+I found the `type` function in the docs, it allows me to check the type of collection is used in case I write it wrong, as I was figuring
+out the homework, before I learned I have to import the array module I had accidentally made another list, then also a tuple.
+    I find it interesting that if array is imported as arr, print(type(x)) still shows it as array.array
+        array doesn't ineract with print, so print is telling me the thing it can't print.
+            how can I print a list?
+
+I imported Array as arr was that made it easier for me to use what you wrote as a reference point, later on my own I think I will import
+modules as primatives using `from x import x`
+
+I need to remember to print my data so I can visibly see the result in the terminal
+    Can I sort an array? How do I sort an array?
+
+anything inside single quotes is a character
+anything in double quotes is a string
+
+an array is a modifier of a list
+
+from array import array - imports as primitive, you have to use array()
+import array - imports array as a module, you have to use array.x()
+import array as arr - imports array as a module named arr, you have to ue arr.x()
