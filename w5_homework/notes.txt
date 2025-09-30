@@ -3,5 +3,29 @@ what does the colon on the f(x): mean?
 
 return defines the output equivilant to =
 
-what we call f(x)
-    equals x + 1
+def and return function explained written in "standard" english
+    what we call f(x)
+        equals x + 1
+
+Can I turn a list into an int?
+    What I want to do is plug the list into a function and get a list of results
+    print(f(1),f(2),f(3),f(4),f(5),etc) works for now, but this is not a great long term solution, expecially if I don't know each input
+        I might be able to add outputs of functions to a list, then plug each postition of the list into the input
+            INPUT ARRAY
+
+how do I do exponents inside of a return function?
+    I can use other python functions within a return function
+        pow() function allows me to use exponents in my function, the syntax is pow(base, exponent)
+
+I want to create a function that does the math for the Magic: the Gathering card Aetherflux Reservoir
+    f(x) = x(x-1)/2
+
+if I want to use parenthesis within a math equation, I can't write that since python uses parenthesis to call functions, so how would I create seperate terms within an expression?
+    I can create a binding to work as a "variable" in the equation and then use the integer of that binding in the expression
+        def f(x):
+            b = (z + y)
+            b = int(b)
+        return((x * b) / N)
+    I dont like how this includes the first decimal value because it looks different than every other printed output from my functions, also in the real world case I use this function there can never be a decimal value so why display it at all 
+        I'm going to find a way to get rid of or at least hide the decimal value from the terminal
+            I imported the math module soley to use the truncate function math.trunc() to hide the decimal value
