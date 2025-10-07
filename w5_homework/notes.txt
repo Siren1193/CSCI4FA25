@@ -28,4 +28,4 @@ if I want to use parenthesis within a math equation, I can't write that since py
         return((x * b) / N)
     I dont like how this includes the first decimal value because it looks different than every other printed output from my functions, also in the real world case I use this function there can never be a decimal value so why display it at all 
         I'm going to find a way to get rid of or at least hide the decimal value from the terminal
-            I imported the math module soley to use the truncate function math.trunc() to hide the decimal value
+            I imported the math module solely to use the truncate function math.trunc() to hide the decimal value
