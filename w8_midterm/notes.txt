@@ -1,0 +1,5 @@
+
+
+builder - some equation to create the sequence f(n)=y
+non continuous
+ordered
