@@ -1,9 +1,10 @@
 #Triangular number sequence in python
-#x(x-1)/2
-def aetherflux(y):
+
+def aetherflux(n):
     life = [0]
-    for casts in range(1,y):
-        life.append(life[(casts * (casts + 1) // 2)])
+    for life_gained in range(1, n + 1):
+        casts = (life_gained * (life_gained + 1)) // 2
+        life.append(casts)
     return life
 
-print(aetherflux(10))
+print(aetherflux(100))
