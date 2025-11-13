@@ -1,0 +1,15 @@
+homework: build a stack in python
+in theory, we can easily convert the queue file into a stack by swapping something
+
+if a stack is first in, last out, theoretically if we pop the tail instead of the head, this should work
+what if we just used the queue as it is, but we define the head as the same point as the tail?
+
+
+
+queue: first in, first out
+stack: first in, last out
+
+push puts some new element into the queue. 
+
+common verbage is to push something into a queue when adding to a queue
+common verbage is to pop something off of a queue when removing something from a queue
