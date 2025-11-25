@@ -1,0 +1,22 @@
+x-y =/= y-x
+def f(x,y,z):      z defines the operator
+
+https://docs.python.org/3/library/math.html#summation-and-product-functions
+python math module has a hypotnuse funtion which I can use for this assignment
+math.hypot(x,y)
+For a two dimensional point (x, y), this is equivalent to computing the hypotenuse of a right triangle using the Pythagorean theorem, sqrt(x*x + y*y).
+
+if I can turn the list of coordinates into a singular integer, I can then use math.hypot between the two points
+
+possible finals:
+graphing algorithm
+    3d - max
+    implimentable
+    python emphasis, written second
+
+rieman sum
+    approximation of an integral
+    explaining the python
+    explaining why its useful, what makes yours different
+
+recursive algorithm

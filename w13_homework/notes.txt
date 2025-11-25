@@ -1,0 +1,11 @@
+
+
+HOMEWORK
+euclidian distance(pythagorean theorem)
+write a function to compute the distance between two cartesianal points (do the pythagorean theorem)
+
+create two points on a graph and find the distance between the two points | absolute value
+only need a function that executes the pythagorean theorem on two cartesian points 
+
+extra credit if function only uses 2 inputs
+extra credit to make it work in all 4 quadrants
