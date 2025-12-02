@@ -1,5 +1,3 @@
-
-
 HOMEWORK
 euclidian distance(pythagorean theorem)
 write a function to compute the distance between two cartesianal points (do the pythagorean theorem)
