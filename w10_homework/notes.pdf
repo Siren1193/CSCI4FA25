@@ -1,0 +1,4 @@
+if a stack is first in, last out, theoretically if we pop the tail instead of the head, this should work.
+    what if we just used the queue as it is, but we define the head as the same point as the tail?
+        in order to turn a pop the tail of our list so it functions as a stack, we need our function to access the list named stack,
+        and then pop what we defined as the tail of our list which is the length - 1

@@ -1,0 +1,16 @@
+Knights tour in chess
+https://en.wikipedia.org/wiki/Knight's_tour
+
+Paper:
+80% english 20% python
+find something that interests me in computer science
+break it into sub problems I can break down and solve with python
+psuedocode can be used to simplify
+
+photography cmos sensor
+    photodiodes convert a light input into electrical charge which is converted into a digital value to then be mapped in an image
+https://evidentscientific.com/en/microscope-resource/knowledge-hub/digital-imaging/cmosimagesensors
+https://en.wikipedia.org/wiki/Bayer_filter
+https://global.canon/en/technology/s_labo/light/003/05.html
+https://thinklucid.com/tech-briefs/understanding-digital-image-sensors/?srsltid=AfmBOor1mTR_cFzjL7WkQLIzn-iygHEYTdKjdvSzFHeGuxKKwLWunxSZ
+https://www.canon-europe.com/pro/infobank/image-sensors-explained/

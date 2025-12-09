@@ -10,4 +10,8 @@ y2 = 99
 absx = abs(x1 - x2)
 absy = abs(y1 - y2)
 
+Pythag_A = int(absx)
+Pythag_B = int(absy)
+
 print(math.hypot(absx,absy))
+

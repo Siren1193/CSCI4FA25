@@ -4,6 +4,9 @@ x-y =/= y-x
 
     let x1,y1 and x2,y2 be constants
 
+** is exponent in python
+^1/2 is equivalent to squareroot 
+
 https://docs.python.org/3/library/math.html#summation-and-product-functions
 python math module has a hypotnuse funtion which I can use for this assignment
 math.hypot(x,y)
@@ -19,4 +22,8 @@ for this assignment I can't use libraries. instead I should:
     d = abs(d_2** (1/2))
 
 I could in theory just do the math that the hypot function does written out rather than using the function to shortcut
-
+    in order to do this, instead of printing math.hypot(absx,absy) I should start by defining
+        Pythag_A => int(absx)
+        Pythag_B => int(absy)
+        assume absx = 10, absy = 155
+print(((Pythag_A ** 2) + (Pythag_B ** 2)) ** (1/2))
