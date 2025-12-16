@@ -20,10 +20,10 @@ def f(x,y,z):
     #z=1 subtraction
     #z=2 multiplication
     #x=3 division 
-print(f(5,5,0)) # Sum = 10
-print(f(1,-1,0)) # Sum = 0
-print(f(0,-1,1)) # Difference = 1
-print(f(0,5,3)) # Quotent = 0
-print(f(4,2,3)) # Quotent = 2
-print(f(2,1,2)) # Product = 2
-print(f(3,2,2)) # Product = 6
+f(5,5,0) # Sum = 10
+f(1,-1,0) # Sum = 0
+f(0,-1,1) # Difference = 1
+f(0,5,3) # Quotent = 0
+f(4,2,3) # Quotent = 2
+f(2,1,2) # Product = 2
+f(3,2,2) # Product = 6
