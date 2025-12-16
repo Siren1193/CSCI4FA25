@@ -25,7 +25,7 @@ def nearest_stop(value):
 
 def image_to_pixel_data(image_path, output_file="pixel_data.txt"):
     """Convert image to pixel data and save to a text file."""
-    img = Image.open(image_path).convert('L')  # grayscale
+    img = Image.open(image_path).convert('L')  # L = grayscale
     width, height = img.size
 
     with open(output_file, "w") as f:
@@ -37,4 +37,5 @@ def image_to_pixel_data(image_path, output_file="pixel_data.txt"):
 
     print(f"Pixel data saved to {output_file}.")
 
-image_to_pixel_data("cmos img2.png")
+#imported image has to be 256x256
+image_to_pixel_data("Orchid_256.png")
