@@ -27,3 +27,4 @@ f(0,5,3) # Quotent = 0
 f(4,2,3) # Quotent = 2
 f(2,1,2) # Product = 2
 f(3,2,2) # Product = 6
+
