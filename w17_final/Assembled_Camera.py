@@ -54,7 +54,8 @@ with open("pixel_data.txt", "r") as f:
         y = int(parts[2].strip()) # converts y coordinate to int
         pixel_data.append((stop, x, y)) #appends tuple to pixel_data List
 
-#creates a new image in Pillow using L mode (8-bit greyscale)
+#binding of the function which creates a new image in Pillow using L mode (8-bit greyscale) to 'img'
+#using this binding allows us to write out next function easier, instead of Image.new.putpixel(...), img.putpixel
 img = Image.new("L", (width, height))
 
 #loop over pixel_data to place pixel in the image
