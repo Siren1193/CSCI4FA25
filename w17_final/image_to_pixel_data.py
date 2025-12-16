@@ -19,12 +19,12 @@ stop_values = list(stops.values())
 stop_keys = list(stops.keys())
 
 def nearest_stop(value):
-    """Return the key of the stop closest to the given pixel value."""
+#returns the key of the stop closest to the given pixel value
     closest_index = min(range(len(stop_values)), key=lambda i: abs(stop_values[i] - value))
     return stop_keys[closest_index]
 
 def image_to_pixel_data(image_path, output_file="pixel_data.txt"):
-    """Convert image to pixel data and save to a text file."""
+#converts image to pixel data and save to a text file
     img = Image.open(image_path).convert('L')  # L = grayscale
     width, height = img.size
 
@@ -37,5 +37,5 @@ def image_to_pixel_data(image_path, output_file="pixel_data.txt"):
 
     print(f"Pixel data saved to {output_file}.")
 
-#imported image has to be 256x256
+#imported image has to be 256x256 because Assembled_Camera.py needs a 256x256 image. any image larger will create error.
 image_to_pixel_data("Orchid_256.png")

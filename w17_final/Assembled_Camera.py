@@ -1,25 +1,25 @@
 #Mock Camera in Python
 import time #for shutter timing
-from PIL import Image #allows us to create and manipulate images
+from PIL import Image #allows us to create images in python
 
 #image dimensions for PIL
+#in theory this could be expanded to whatever size needed, image imported for use in image_to_pixel_data.py has to match in width and height to this string
 width, height = 256, 256 
 
 #defines dynamic range stops 0-9, A, B
 #this maps discrete stops to 8-bit greyscale values (0=black, 255=white)
 stops = { 
     '0': 0,
-    '1': 23,
-    '2': 46,
-    '3': 69,
-    '4': 92,
-    '5': 115,
-    '6': 138,
-    '7': 161,
-    '8': 184,
-    '9': 207,
-    'A': 230,
-    'B': 255,
+    '1': 25,
+    '2': 51,
+    '3': 76,
+    '4': 102,
+    '5': 127,
+    '6': 153,
+    '7': 178,
+    '8': 204,
+    '9': 229,
+    'A': 255,
 }
 
 #function to simulate mechanical shutter
