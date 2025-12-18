@@ -1,4 +1,4 @@
-#converts an image to pixel data (stop, x, y) text file to then be used in Assembled_Camera.py
+#converts an image to pixel data (stop, x, y) text file to then be used in Camera.py
 from PIL import Image
 
 #defines exposure stops (0-A) to 8-bit values for quantization
@@ -41,5 +41,5 @@ def image_to_pixel_data(image_path, output_file="pixel_data.txt"):
 
     print(f"Pixel data saved to {output_file}.")
 
-#imported image has to match width, height in Assembled_Camera.py otherwise it will create error.
+#imported image has to match width, height in Camera.py otherwise it will create error.
 image_to_pixel_data("Orchid_256.png")
