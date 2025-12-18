@@ -41,11 +41,10 @@ pixel_data = [] #empty list for our next function to populate
 
 with open("pixel_data.txt", "r") as f:
     for line in f:
-        line = line.replace("(", "").replace(")", "") #removes parantheses and whitespace
-        parts = line.split(",")
-        stop = parts[0].strip()   #stop value as string
-        x = int(parts[1].strip()) # converts x coordinate to int
-        y = int(parts[2].strip()) # converts y coordinate to int
+        parts = line.split(" ")
+        stop = parts[0]
+        x = int(parts[1])
+        y = int(parts[2])
         pixel_data.append((stop, x, y)) #appends tuple to pixel_data List
 
 img = Image.new("L", (width, height)) #creates a new image using Pillow
@@ -54,4 +53,4 @@ for stop, x, y in pixel_data:
     img.putpixel((x, y), stops[stop]) #modifies pixel (x,y) to greyscale value corresponding to stop
 
 #saves the image
-img.save("Photograph.png")
+img.save("Photograph.png"); print("Photograph Saved!")

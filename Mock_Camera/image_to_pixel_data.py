@@ -37,7 +37,7 @@ def image_to_pixel_data(image_path, output_file="pixel_data.txt"):
             for x in range(width):
                 pixel_value = img.getpixel((x, y)) #get pixel value
                 stop = nearest_stop(pixel_value) #quantize pixel value
-                f.write(f"({stop}, {x}, {y})\n") #write to file
+                f.write(f"{stop} {x} {y}\n") #write to file
 
     print(f"Pixel data saved to {output_file}.")
 
